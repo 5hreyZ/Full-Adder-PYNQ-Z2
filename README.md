@@ -16,5 +16,5 @@ A basic Full Adder implemented on Xilinx PYNQ-Z2 FPGA Board.
 # LUT Utilisation
 
 <p align="center">
-  <img src="Full_Adder.jpg" alt="Image 1" width="45%"/>
+  <img src="Full Adder.jpg" alt="Image 1" width="45%"/>
 </p>
