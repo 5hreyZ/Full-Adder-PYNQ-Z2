@@ -11,3 +11,10 @@ A basic Full Adder implemented on Xilinx PYNQ-Z2 FPGA Board.
   <img src="AB.jpg" alt="Image 1" width="45%"/>
   <img src="ABC.jpg" alt="Image 2" width="45%"/>
 </p>
+
+
+# LUT Utilisation
+
+<p align="center">
+  <img src="Full_Adder.jpg" alt="Image 1" width="45%"/>
+</p>
