@@ -1,0 +1,23 @@
+##.xdc for the PYNQ-Z2 board implementing a Full Adder
+## Clock signal 125 MHz
+
+#set_property -dict { PACKAGE_PIN H16   IOSTANDARD LVCMOS33 } [get_ports { sysclk }]; 
+#create_clock -add -name sys_clk_pin -period 8.00 -waveform {0 4} [get_ports { sysclk }];
+
+
+##PUSH BUTTONs {A, B & C as I/Ps}
+
+set_property -dict { PACKAGE_PIN D19   IOSTANDARD LVCMOS33 } [get_ports { A }]; 
+set_property -dict { PACKAGE_PIN D20   IOSTANDARD LVCMOS33 } [get_ports { B }]; 
+set_property -dict { PACKAGE_PIN L20   IOSTANDARD LVCMOS33 } [get_ports { C }]; 
+
+
+##LEDs {SUM s & CARRY c as O/Ps}
+
+set_property -dict { PACKAGE_PIN R14   IOSTANDARD LVCMOS33 } [get_ports { c }]; 
+set_property -dict { PACKAGE_PIN P14   IOSTANDARD LVCMOS33 } [get_ports { s }]; 
+
+
+#End of XDC file
+
+
